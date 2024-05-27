@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos Retro - Fox Games</title>
+    <link rel="stylesheet" href="jogos-retro.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .games-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .game-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .game-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .game-item h3 {
+            margin: 15px 0 10px;
+            font-size: 1.5em;
+        }
+        .game-item p {
+            margin: 5px 0;
+        }
+        .section-title {
+            text-align: center;
+            margin: 40px 0 20px;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"><img src="img/OIG2.L4VZbrYfhd0Zq.jpg" alt="Logo"></a></li>
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 class="section-title">Jogos de PC</h2>
+            <div class="games-grid">
+                <div class="game-item">
+                    <img src="img/witcher3.jpg" alt="The Witcher 3: Wild Hunt">
+                    <h3>The Witcher 3: Wild Hunt</h3>
+                    <p><strong>Desenvolvedor:</strong> CD Projekt Red</p>
+                    <p><strong>Gênero:</strong> RPG de ação</p>
+                    <p><strong>Descrição:</strong> Controle Geralt de Rivia em um vasto mundo aberto cheio de missões e uma narrativa profunda.</p>
+                    <p>R$ 340</p>
+                </div>
+                <div class="game-item">
+                    <img src="img/civ6.webp" alt="Civilization VI">
+                    <h3>Civilization VI</h3>
+                    <p><strong>Desenvolvedor:</strong> Firaxis Games</p>
+                    <p><strong>Gênero:</strong> Estratégia por turnos</p>
+                    <p><strong>Descrição:</strong> Construa um império ao longo dos séculos, gerencie recursos e interaja com outras civilizações.</p>
+                    <p>R$ 140</p>
+                </div>
+                <div class="game-item">
+                    <img src="img/halflifealyx.png" alt="Half-Life: Alyx">
+                    <h3>Half-Life: Alyx</h3>
+                    <p><strong>Desenvolvedor:</strong> Valve Corporation</p>
+                    <p><strong>Gênero:</strong> FPS/VR</p>
+                    <p><strong>Descrição:</strong> Um FPS projetado para VR, com jogabilidade imersiva no universo de Half-Life.</p>
+                    <p>R$ 289</p>
+                </div>
+                <div class="game-item">
+                    <img src="img/doometernal.jpg" alt="Doom Eternal">
+                    <h3>Doom Eternal</h3>
+                    <p><strong>Desenvolvedor:</strong> id Software</p>
+                    <p><strong>Gênero:</strong> FPS</p>
+                    <p><strong>Descrição:</strong> Combata hordas de demônios em cenários infernais com jogabilidade rápida e intensa.</p>
+                    <p> R$ 340</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

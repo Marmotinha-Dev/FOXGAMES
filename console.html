@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos Retro - Fox Games</title>
+    <link rel="stylesheet" href="jogos-retro.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .games-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .game-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .game-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .game-item h3 {
+            margin: 15px 0 10px;
+            font-size: 1.5em;
+        }
+        .game-item p {
+            margin: 5px 0;
+        }
+        .section-title {
+            text-align: center;
+            margin: 40px 0 20px;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 class="section-title">Melhores Jogos de Console</h2>
+            <div class="games-grid">
+                <div class="game-item">
+                    <img src="img/zelda.jpg" alt="The Legend of Zelda: Breath of the Wild">
+                    <h3>The Legend of Zelda: Breath of the Wild</h3>
+                    <p><strong>Desenvolvedor:</strong> Nintendo</p>
+                    <p><strong>Gênero:</strong> Ação-aventura</p>
+                    <p><strong>Descrição:</strong> Um jogo de mundo aberto que redefine a série Zelda com liberdade de exploração e jogabilidade baseada em física.</p>
+                </div>
+                <div class="game-item">
+                    <img src="img/godofwar.jpg" alt="God of War">
+                    <h3>God of War</h3>
+                    <p><strong>Desenvolvedor:</strong> Santa Monica Studio</p>
+                    <p><strong>Gênero:</strong> Ação-aventura</p>
+                    <p><strong>Descrição:</strong> Uma reinvenção da série, com narrativa envolvente e combate brutal, focado na relação entre Kratos e seu filho Atreus.</p>
+                </div>
+                <div class="game-item">
+                    <img src="img/rdr2.jpg" alt="Red Dead Redemption 2">
+                    <h3>Red Dead Redemption 2</h3>
+                    <p><strong>Desenvolvedor:</strong> Rockstar Games</p>
+                    <p><strong>Gênero:</strong> Ação-aventura</p>
+                    <p><strong>Descrição:</strong> Um jogo de mundo aberto no Velho Oeste, com narrativa profunda e personagens complexos.</p>
+                </div>
+                <div class="game-item">
+                    <img src="img/spiderman.jpg" alt="Spider-Man: Miles Morales">
+                    <h3>Spider-Man: Miles Morales</h3>
+                    <p><strong>Desenvolvedor:</strong> Insomniac Games</p>
+                    <p><strong>Gênero:</strong> Ação-aventura</p>
+                    <p><strong>Descrição:</strong> Controle Miles Morales em uma história emocionante e jogabilidade ágil em um mundo aberto vibrante.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
